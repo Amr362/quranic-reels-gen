@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+requests
+# Add other backend dependencies here as the project develops, e.g.:
+# pydub # for audio manipulation if needed outside whisper
+# Pillow # for image manipulation if needed for pinterest integration
+
+# Dependencies for the cloned repositories (whisper and moviepy)
+# will be inside their respective folders if they have their own requirements.txt
+# or need to be added here if they are to be installed in the main backend environment.
+# For now, assuming they are self-contained or their requirements will be handled separately.
+
